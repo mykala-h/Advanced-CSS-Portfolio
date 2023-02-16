@@ -25,10 +25,7 @@ body {
 h2 {
     font-style: italic;
     color: #ffffff;
-}
-
-#about-me, #work {
-    border-block-end: .5rem #A25D34 solid;
+    margin-left: 3%;
 }
 
 p {
@@ -36,7 +33,20 @@ p {
     text-align: right;
 }
 
-nav h2::after {
+.container-1, .container-2, .container-3 {
+    position: relative;
+}
+
+img {
+    border: 5px #6b6e70 solid;
+}
+.text-block1 {
+    position: absolute;
+    bottom: 16px;
+    left: 20px;
+}
+
+.bottom-nav {
     display: flex;
-    align-items: center;
+    flex-direction: row;
 }
