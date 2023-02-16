@@ -31,6 +31,7 @@ h2, .info {
 
 p {
     text-align: center;
+    color: #eaf070;
 }
 
 .img-container {
@@ -45,7 +46,7 @@ p {
 
 .image, .images{
     width: 100%;
-    border: 5px #eaf070 solid;
+    border: 10px #eaf070 solid;
 }
 
 .container, .container2 {
@@ -55,9 +56,9 @@ p {
     
 .bottom-right {
     position: absolute;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
-    color: white;
+    color: #FA7D8F;
     background-color: #8347C3;
     opacity: .6;
     padding: 2.5% 5%;
@@ -66,5 +67,33 @@ p {
 }
 
 .space {
-    margin-right: 100px;
+    margin: 50px;
+}
+
+@media screen and (max-width: 815px) {
+body{
+    background-color: white;
+        
+}
+
+h1 {
+    background-color: #fff;
+    color: #000000;
+    opacity: .6;
+}
+
+p {
+    color: #FA7D8F;
+}
+}
+
+@media screen and (max-width: 600px) {
+.img-container {
+    position: relative;
+    width: 400px;
+}
+.img-containers {
+    position: relative;
+    width: 200px;
+}
 }
