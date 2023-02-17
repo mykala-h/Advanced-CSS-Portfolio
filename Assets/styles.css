@@ -12,9 +12,20 @@ h1 {
 
 nav {
     background-color: #FFB748;
+    font-size: larger;
     display: flex;
     justify-content: space-around;
     padding: 1%;
+}
+
+a:visited, a:link {
+    color: #0051AA;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration:line-through;
 }
 
 body {
@@ -29,10 +40,20 @@ h2, .info {
     border-top: #01FE87 solid;
 }
 
-p {
-    text-align: center;
-    color: #eaf070;
+.avatar {
+    margin: 0 auto;
+    width: 30%;
+    display: block;
+    background-image: url(https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+    background-size: 100% 100%;
 }
+
+p {
+    text-align: left;
+    color: #eaf070;
+    margin: auto 4%;
+}
+
 
 .img-container {
     position: relative;
