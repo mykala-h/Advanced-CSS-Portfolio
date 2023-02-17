@@ -17,7 +17,7 @@ nav {
     justify-content: space-around;
     padding: 1%;
 }
-
+/* links have the same color whether they have been clicked or not */
 a:visited, a:link {
     color: #0051AA;
     text-decoration: none;
@@ -54,12 +54,12 @@ p {
     margin: auto 4%;
 }
 
-
+/* main image */
 .img-container {
     position: relative;
     width: 550px;
     }
-
+/* two remaining images */
 .img-containers {
     position: relative;
     width: 275px;
@@ -74,7 +74,8 @@ p {
     display: flex;
     justify-content: center;
 }
-    
+
+/* positions text over picture and cotrols style of text */
 .bottom-right {
     position: absolute;
     font-size: 18px;
@@ -87,11 +88,13 @@ p {
     right: 30px;
 }
 
+/* created space between bottom navagiation elements */
 .space {
     margin: 50px;
 }
 
 @media screen and (max-width: 815px) {
+/* changed background color to show transition to smaller screen size*/
 body{
     background-color: white;
         
@@ -109,6 +112,7 @@ p {
 }
 
 @media screen and (max-width: 600px) {
+/* resized images to accommodate smaller screens */
 .img-container {
     position: relative;
     width: 400px;
